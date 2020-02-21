@@ -149,9 +149,9 @@ h1 {
 h2 {
   font-size: 3.2rem;
   padding-bottom: 10px;
-  -webkit-animation: fade-in 0.2s linear infinite alternate;
-  -moz-animation: fade-in 0.2s linear infinite alternate;
-  animation: fade-in 0.2s linear infinite alternate;
+  -webkit-animation: fade-in 1s linear infinite alternate;
+  -moz-animation: fade-in 1s linear infinite alternate;
+  animation: fade-in 1s linear infinite alternate;
 }
 @-webkit-keyframes fade-in {
   0% {
