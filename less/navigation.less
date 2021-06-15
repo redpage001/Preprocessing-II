@@ -1,1 +1,41 @@
 // Navigation Styles here
+
+header {
+
+    border-bottom: @navigation-border dashed 2px;
+
+    .Nav {
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2vh 0 3vh 0;
+
+        @media @tablet {
+            flex-direction: column;
+        }
+
+        h1 {
+            @media @tablet {
+                padding: 1vh 0 1.5vh;
+            }
+        }
+
+        nav {
+            width: 40%;
+            display: flex;
+            justify-content: space-around;
+            @media @tablet {
+                width: 100%;
+            }
+
+            a {
+                text-decoration: none;
+                color: @font-color;
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
